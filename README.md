@@ -10,9 +10,9 @@
 
 ## 疑問点
 * お手本のコードでLinting Errorが出てる
-    ```
+```
 [stylelint] Expected selector "footer > ul > li" to come before selector ".product > ol > li" [Error]
-    ```
+```
 
 ## 感想
 freeCodeCampのこの項ではあまりCSSの設計について学ぶことはできない
