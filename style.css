@@ -18,6 +18,12 @@ body {
   background-color: #eee;
 }
 
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+  }
+}
+
 #header-img {
   height: 50px;
   margin: 0 auto 0 16px;
