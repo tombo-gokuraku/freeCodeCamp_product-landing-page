@@ -4,7 +4,8 @@
 
 ## 収穫
 * `<i></i>`とか`<img>`とかはdivで囲ってレイアウトする
-* `text-transform: uppercase`で大文字にできる
+* `text-transform: uppercase;`で大文字にできる
+* `text-decoration: none;`で下線とかが消せる
 * `overflow-wrap`で文字を折り返せる
 * `vw`使うとViewportの%分だけサイズ調整できる
 
