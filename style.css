@@ -2,6 +2,145 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 16px;
+  background-color: #eee;
+}
+
+#header-img {
+  height: 50px;
+  margin: 0 auto 0 16px;
+}
+
+#nav-bar {
+  align-self: center;
+  margin: 0 16px 0 auto;
+}
+
+.nav-link {
+  color: black;
+  margin: 30px;
+  text-decoration: none;
+}
+
+main {
+  width: 1000px;
+  margin: 80px auto 50px auto;
+}
+
 .content {
   margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  width: 30%;
+  height: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#submit {
+  font-size: 1.25rem;
+  background-color: orange;
+  border: unset;
+  border-radius: 5px;
+  padding: 0.1em 0.75rem;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feature-icon {
+  /* アイコンの幅が揃わないせいで、文字の開始位置がずれる */
+  color: orange;
+  margin: 8px 32px 8px 8px;
+}
+
+.feature-title,
+.feature-description {
+  margin: 0.25rem;
+}
+
+#video {
+  display: flex;
+  margin: 0 auto;
+}
+
+.price-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-card {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #000;
+  margin: 8px;
+}
+
+.price-card__title {
+  background-color: #ccc;
+  font-size: 1rem;
+  padding: 8px;
+  margin: 0;
+}
+
+.price-card__description {
+  margin: 0.25rem;
+}
+
+.price-card__button {
+  margin: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: orange;
+  border: unset;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ccc;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0.75rem;
+  text-align: right;
+}
+
+.footer-link {
+  color: black;
+  margin: 0.5rem;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #555;
 }
